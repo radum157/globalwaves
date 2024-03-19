@@ -1,4 +1,4 @@
-##### Project GlobalWaves - Phase 3 - Marin Radu - 323CA
+##### Project GlobalWaves - Marin Radu
 
 # README
 
@@ -20,18 +20,13 @@ grip  README.md
 ## Overview
 
 Project GlobalWaves is an attempt to create a personalised Spotify clone from scratch.
-The third phase finalises the app by adding page navigation, statistics, monetization, premium users, ads etc.
+Most of the backend has been handled here, with possible future additions to the functionalities.
 
-Most functionalities have remained the same, since this phase has been more information-centered. Notable changes
-include the further storage of data inside certain classes. 
+All that's left is for the frontend to handle the creation and transmission of the commands as JSONs.
 
-## Solution description
+## Program description
 
-**Some changes from phase 2:**
-
-- Responses now generate JsonNodes for Jackson printing to remove unused attributes, solve attribute name conflicts etc.
-- Most annotations were removed (Lombok getters were kept for simplicity)
-- Search filters are now case-insensitive
+Version 3.0
 
 **New features:**
 
